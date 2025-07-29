@@ -14,3 +14,8 @@ profiles.yml
 
 .ruff_cache
 __pycache__
+target/
+logs/
+montara/profiles.yml
+dbt_packages/
+.user.yml
