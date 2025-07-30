@@ -1,0 +1,36 @@
+version: 2
+sources:
+  - name: raw_listings
+    schema: athena_poc_csv_db
+    database: AwsDataCatalog
+    tables:
+      - name: raw_listings
+        description: ""
+        columns:
+          - name: id
+            type: NUMBER
+            tests: []
+          - name: listing_url
+            type: TEXT
+            tests: []
+          - name: name
+            type: TEXT
+            tests: []
+          - name: room_type
+            type: TEXT
+            tests: []
+          - name: minimum_nights
+            type: NUMBER
+            tests: []
+          - name: host_id
+            type: NUMBER
+            tests: []
+          - name: price
+            type: NUMBER
+            tests: []
+          - name: created_at
+            type: TIMESTAMP
+            tests: []
+          - name: updated_at
+            type: TIMESTAMP
+            tests: []
