@@ -5,33 +5,15 @@ models:
     config:
       materialized: "table"
       unique_key: []
+      enabled: true
+      database: null
+      schema: null
     tests: []
     columns:
       - name: "id"
         type: "NUMBER"
         tests: []
-      - name: "listing_url"
-        type: "TEXT"
-        tests: []
-      - name: "name"
-        type: "TEXT"
-        tests: []
-      - name: "room_type"
-        type: "TEXT"
-        tests: []
-      - name: "minimum_nights"
-        type: "NUMBER"
-        tests: []
-      - name: "host_id"
-        type: "NUMBER"
-        tests: []
-      - name: "price"
-        type: "NUMBER"
-        tests: []
       - name: "created_at"
-        type: "TIMESTAMP"
-        tests: []
-      - name: "updated_at"
         type: "TIMESTAMP"
         tests: []
     meta:
@@ -39,4 +21,4 @@ models:
       incremental_config:
         target_column: ""
         incremental_origins: []
-      updated: "2025-07-31T12:31:10.690Z"
+      updated: "2025-07-31T12:31:44.503Z"
