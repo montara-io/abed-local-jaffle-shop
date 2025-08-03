@@ -1,0 +1,15 @@
+version: 2
+models:
+  - name: "root_you_2"
+    description: ""
+    config:
+      materialized: "table"
+      unique_key: []
+    tests: []
+    columns: []
+    meta:
+      model_tags: []
+      incremental_config:
+        target_column: ""
+        incremental_origins: []
+      updated: "2025-08-03T12:06:20.850Z"
