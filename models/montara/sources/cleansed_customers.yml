@@ -1,0 +1,30 @@
+version: 2
+sources:
+  - name: cleansed_customers
+    schema: dan_local_1_test
+    database: AwsDataCatalog
+    tables:
+      - name: cleansed_customers
+        description: ""
+        columns:
+          - name: customer_id
+            type: NUMBER
+            tests: []
+          - name: first_name
+            type: TEXT
+            tests: []
+          - name: last_name
+            type: TEXT
+            tests: []
+          - name: first_order
+            type: DATE
+            tests: []
+          - name: most_recent_order
+            type: DATE
+            tests: []
+          - name: number_of_orders
+            type: NUMBER
+            tests: []
+          - name: customer_lifetime_value
+            type: NUMBER
+            tests: []
