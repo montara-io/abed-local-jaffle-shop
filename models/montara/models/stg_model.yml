@@ -11,27 +11,45 @@ models:
       - name: "id"
         type: "NUMBER"
         description: "Unique identifier for the listing."
-        tests: []
+        tests:
+          - not_null_tolerance:
+              tolerance: 5
       - name: "host_id"
         type: "NUMBER"
         description: "Unique identifier for the host who owns the listing."
-        tests: []
+        tests:
+          - not_null_tolerance:
+              tolerance: 0
+          - range_tolerance:
+              min: 0
+              max: 100
+              tolerance: 0
       - name: "name"
         type: "TEXT"
         description: "Name or title of the listing."
-        tests: []
+        tests:
+          - not_null_tolerance:
+              tolerance: 0
       - name: "updated"
         type: "TIMESTAMP"
         description: "Timestamp of the last update to the listing."
-        tests: []
+        tests:
+          - not_null_tolerance:
+              tolerance: 5
       - name: "created"
         type: "TIMESTAMP"
         description: "Timestamp when the listing was created."
-        tests: []
+        tests:
+          - not_null_tolerance:
+              tolerance: 0
+          - date_range_tolerance:
+              range_type: "Between"
+              after: "2025-8-5"
+              tolerance: 0
     meta:
       model_tags:
         - "2fabd4fa-2810-468e-9a28-ec7b7f28ebb4"
       incremental_config:
         target_column: ""
         incremental_origins: []
-      updated: "2025-08-05T13:59:03.844Z"
+      updated: "2025-08-05T13:59:56.832Z"
