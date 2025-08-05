@@ -1,32 +1,32 @@
 version: 2
 models:
   - name: "stg_model"
-    description: ""
+    description: "Returns the id, name, host_id, updated timestamp, and created
+      timestamp for each listing from raw_listings."
     config:
       materialized: "table"
       unique_key: []
-      enabled: true
-      database: null
-      schema: null
     tests: []
     columns:
       - name: "id"
         type: "NUMBER"
+        description: "Unique identifier for the listing."
         tests: []
       - name: "host_id"
         type: "NUMBER"
+        description: "Unique identifier for the host who owns the listing."
         tests: []
       - name: "name"
         type: "TEXT"
-        description: ""
+        description: "Name or title of the listing."
         tests: []
       - name: "updated"
         type: "TIMESTAMP"
-        description: ""
+        description: "Timestamp of the last update to the listing."
         tests: []
       - name: "created"
         type: "TIMESTAMP"
-        description: ""
+        description: "Timestamp when the listing was created."
         tests: []
     meta:
       model_tags:
@@ -34,4 +34,4 @@ models:
       incremental_config:
         target_column: ""
         incremental_origins: []
-      updated: "2025-08-05T11:05:51.067Z"
+      updated: "2025-08-05T13:59:03.844Z"
