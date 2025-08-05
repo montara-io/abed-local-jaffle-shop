@@ -12,43 +12,26 @@ models:
     columns:
       - name: "id"
         type: "NUMBER"
-        description: ""
         tests: []
-      - name: "listing_url"
-        type: "TEXT"
-        description: ""
+      - name: "host_id"
+        type: "NUMBER"
         tests: []
       - name: "name"
         type: "TEXT"
         description: ""
         tests: []
-      - name: "room_type"
-        type: "TEXT"
-        description: ""
-        tests: []
-      - name: "minimum_nights"
-        type: "NUMBER"
-        description: ""
-        tests: []
-      - name: "host_id"
-        type: "NUMBER"
-        description: ""
-        tests: []
-      - name: "price"
-        type: "NUMBER"
-        description: ""
-        tests: []
-      - name: "created_at"
+      - name: "updated"
         type: "TIMESTAMP"
         description: ""
         tests: []
-      - name: "updated_at"
+      - name: "created"
         type: "TIMESTAMP"
         description: ""
         tests: []
     meta:
-      model_tags: []
+      model_tags:
+        - "2fabd4fa-2810-468e-9a28-ec7b7f28ebb4"
       incremental_config:
         target_column: ""
         incremental_origins: []
-      updated: "2025-07-30T07:55:33.021Z"
+      updated: "2025-08-05T11:05:51.067Z"
