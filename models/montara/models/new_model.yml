@@ -17,8 +17,9 @@ models:
         description: "Timestamp indicating when the listing was created."
         tests: []
     meta:
-      model_tags: []
+      model_tags:
+        - "19f67624-f880-4afc-8e8a-d12a61077b49"
       incremental_config:
         target_column: ""
         incremental_origins: []
-      updated: "2025-08-03T13:34:50.549Z"
+      updated: "2025-08-04T14:43:44.648Z"
