@@ -22,4 +22,4 @@ models:
       incremental_config:
         target_column: ""
         incremental_origins: []
-      updated: "2025-08-06T12:00:33.958Z"
+      updated: "2025-08-07T12:27:20.570Z"
