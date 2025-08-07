@@ -6,6 +6,9 @@ models:
     config:
       materialized: "table"
       unique_key: []
+      enabled: true
+      database: null
+      schema: null
     tests: []
     columns:
       - name: "id"
@@ -16,10 +19,38 @@ models:
         type: "TIMESTAMP"
         description: "Timestamp indicating when the listing was created."
         tests: []
+      - name: "listing_url"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "name"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "room_type"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "minimum_nights"
+        type: "NUMBER"
+        description: ""
+        tests: []
+      - name: "host_id"
+        type: "NUMBER"
+        description: ""
+        tests: []
+      - name: "price"
+        type: "NUMBER"
+        description: ""
+        tests: []
+      - name: "updated_at"
+        type: "TIMESTAMP"
+        description: ""
+        tests: []
     meta:
       model_tags:
         - "19f67624-f880-4afc-8e8a-d12a61077b49"
       incremental_config:
         target_column: ""
         incremental_origins: []
-      updated: "2025-08-07T12:28:14.484Z"
+      updated: "2025-08-07T12:28:43.359Z"
