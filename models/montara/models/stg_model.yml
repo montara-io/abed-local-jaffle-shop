@@ -6,9 +6,6 @@ models:
     config:
       materialized: "table"
       unique_key: []
-      enabled: true
-      database: null
-      schema: null
     tests: []
     columns:
       - name: "id"
@@ -35,11 +32,9 @@ models:
               tolerance: 0
       - name: "updated_at"
         type: "TIMESTAMP"
-        description: ""
         tests: []
       - name: "created_at"
         type: "TIMESTAMP"
-        description: ""
         tests: []
     meta:
       model_tags:
@@ -47,4 +42,4 @@ models:
       incremental_config:
         target_column: ""
         incremental_origins: []
-      updated: "2025-08-12T10:43:41.708Z"
+      updated: "2025-08-17T09:11:05.377Z"
