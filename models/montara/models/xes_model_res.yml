@@ -5,11 +5,106 @@ models:
     config:
       materialized: "table"
       unique_key: []
+      enabled: true
+      database: null
+      schema: null
     tests: []
-    columns: []
+    columns:
+      - name: "WEBSITE"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "_AIRBYTE_AB_ID"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "NAME"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "SEGMENTS"
+        type: "OBJECT"
+        description: ""
+        tests: []
+      - name: "APP_ID"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "REMOTE_CREATED_AT"
+        type: "NUMBER"
+        description: ""
+        tests: []
+      - name: "ID"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "_AIRBYTE_EMITTED_AT"
+        type: "TIMESTAMP"
+        description: ""
+        tests: []
+      - name: "_AIRBYTE_COMPANIES_HASHID"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "CUSTOM_ATTRIBUTES"
+        type: "OBJECT"
+        description: ""
+        tests: []
+      - name: "SESSION_COUNT"
+        type: "NUMBER"
+        description: ""
+        tests: []
+      - name: "TAGS"
+        type: "OBJECT"
+        description: ""
+        tests: []
+      - name: "UPDATED_AT"
+        type: "NUMBER"
+        description: ""
+        tests: []
+      - name: "USER_COUNT"
+        type: "NUMBER"
+        description: ""
+        tests: []
+      - name: "SIZE"
+        type: "NUMBER"
+        description: ""
+        tests: []
+      - name: "PLAN"
+        type: "OBJECT"
+        description: ""
+        tests: []
+      - name: "CREATED_AT"
+        type: "NUMBER"
+        description: ""
+        tests: []
+      - name: "_AIRBYTE_NORMALIZED_AT"
+        type: "TIMESTAMP"
+        description: ""
+        tests: []
+      - name: "_AIRBYTE_UNIQUE_KEY"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "MONTHLY_SPEND"
+        type: "NUMBER"
+        description: ""
+        tests: []
+      - name: "COMPANY_ID"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "INDUSTRY"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "TYPE"
+        type: "TEXT"
+        description: ""
+        tests: []
     meta:
       model_tags: []
       incremental_config:
         target_column: ""
         incremental_origins: []
-      updated: "2025-08-19T11:17:01.140Z"
+      updated: "2025-08-19T11:17:33.758Z"
