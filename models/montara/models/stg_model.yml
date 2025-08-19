@@ -6,35 +6,72 @@ models:
     config:
       materialized: "table"
       unique_key: []
+      enabled: true
+      database: null
+      schema: null
     tests: []
     columns:
-      - name: "id"
-        type: "NUMBER"
-        description: "Unique identifier for the listing."
-        tests:
-          - not_null_tolerance:
-              tolerance: 5
-      - name: "host_id"
-        type: "NUMBER"
-        description: "Unique identifier for the host who owns the listing."
-        tests:
-          - not_null_tolerance:
-              tolerance: 0
-          - range_tolerance:
-              min: 0
-              max: 100
-              tolerance: 0
       - name: "name"
         type: "TEXT"
         description: "Name or title of the listing."
         tests:
           - not_null_tolerance:
               tolerance: 0
-      - name: "updated_at"
-        type: "TIMESTAMP"
+      - name: "_AIRBYTE_ADMINS_HASHID"
+        type: "TEXT"
+        description: ""
         tests: []
-      - name: "created_at"
+      - name: "AWAY_MODE_REASSIGN"
+        type: "BOOLEAN"
+        description: ""
+        tests: []
+      - name: "TYPE"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "AWAY_MODE_ENABLED"
+        type: "BOOLEAN"
+        description: ""
+        tests: []
+      - name: "ID"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "TEAM_IDS"
+        type: "OBJECT"
+        description: ""
+        tests: []
+      - name: "HAS_INBOX_SEAT"
+        type: "BOOLEAN"
+        description: ""
+        tests: []
+      - name: "EMAIL"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "_AIRBYTE_NORMALIZED_AT"
         type: "TIMESTAMP"
+        description: ""
+        tests: []
+      - name: "_AIRBYTE_EMITTED_AT"
+        type: "TIMESTAMP"
+        description: ""
+        tests: []
+      - name: "_AIRBYTE_AB_ID"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "ADMIN_IDS"
+        type: "OBJECT"
+        description: ""
+        tests: []
+      - name: "AVATAR"
+        type: "OBJECT"
+        description: ""
+        tests: []
+      - name: "JOB_TITLE"
+        type: "TEXT"
+        description: ""
         tests: []
     meta:
       model_tags:
@@ -42,4 +79,4 @@ models:
       incremental_config:
         target_column: ""
         incremental_origins: []
-      updated: "2025-08-19T08:55:05.930Z"
+      updated: "2025-08-19T08:55:28.294Z"
