@@ -1,0 +1,27 @@
+version: 2
+sources:
+  - name: ADMINS_AVATAR
+    schema: AIRBYTE_SCHEMA
+    database: airbnb
+    tables:
+      - name: ADMINS_AVATAR
+        description: ""
+        columns:
+          - name: _AIRBYTE_NORMALIZED_AT
+            type: TIMESTAMP
+            tests: []
+          - name: _AIRBYTE_ADMINS_HASHID
+            type: TEXT
+            tests: []
+          - name: IMAGE_URL
+            type: TEXT
+            tests: []
+          - name: _AIRBYTE_AVATAR_HASHID
+            type: TEXT
+            tests: []
+          - name: _AIRBYTE_EMITTED_AT
+            type: TIMESTAMP
+            tests: []
+          - name: _AIRBYTE_AB_ID
+            type: TEXT
+            tests: []

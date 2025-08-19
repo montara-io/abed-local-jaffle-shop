@@ -1,0 +1,54 @@
+version: 2
+sources:
+  - name: ADMINS
+    schema: AIRBYTE_SCHEMA
+    database: airbnb
+    tables:
+      - name: ADMINS
+        description: ""
+        columns:
+          - name: _AIRBYTE_ADMINS_HASHID
+            type: TEXT
+            tests: []
+          - name: ADMIN_IDS
+            type: OBJECT
+            tests: []
+          - name: _AIRBYTE_EMITTED_AT
+            type: TIMESTAMP
+            tests: []
+          - name: _AIRBYTE_NORMALIZED_AT
+            type: TIMESTAMP
+            tests: []
+          - name: NAME
+            type: TEXT
+            tests: []
+          - name: HAS_INBOX_SEAT
+            type: BOOLEAN
+            tests: []
+          - name: JOB_TITLE
+            type: TEXT
+            tests: []
+          - name: EMAIL
+            type: TEXT
+            tests: []
+          - name: AWAY_MODE_ENABLED
+            type: BOOLEAN
+            tests: []
+          - name: _AIRBYTE_AB_ID
+            type: TEXT
+            tests: []
+          - name: ID
+            type: TEXT
+            tests: []
+          - name: TEAM_IDS
+            type: OBJECT
+            tests: []
+          - name: AWAY_MODE_REASSIGN
+            type: BOOLEAN
+            tests: []
+          - name: TYPE
+            type: TEXT
+            tests: []
+          - name: AVATAR
+            type: OBJECT
+            tests: []

@@ -1,0 +1,90 @@
+version: 2
+sources:
+  - name: COMPANIES_SCD
+    schema: AIRBYTE_SCHEMA
+    database: airbnb
+    tables:
+      - name: COMPANIES_SCD
+        description: ""
+        columns:
+          - name: SESSION_COUNT
+            type: NUMBER
+            tests: []
+          - name: _AIRBYTE_UNIQUE_KEY
+            type: TEXT
+            tests: []
+          - name: _AIRBYTE_EMITTED_AT
+            type: TIMESTAMP
+            tests: []
+          - name: MONTHLY_SPEND
+            type: NUMBER
+            tests: []
+          - name: CREATED_AT
+            type: NUMBER
+            tests: []
+          - name: INDUSTRY
+            type: TEXT
+            tests: []
+          - name: UPDATED_AT
+            type: NUMBER
+            tests: []
+          - name: ID
+            type: TEXT
+            tests: []
+          - name: _AIRBYTE_COMPANIES_HASHID
+            type: TEXT
+            tests: []
+          - name: REMOTE_CREATED_AT
+            type: NUMBER
+            tests: []
+          - name: NAME
+            type: TEXT
+            tests: []
+          - name: TYPE
+            type: TEXT
+            tests: []
+          - name: _AIRBYTE_UNIQUE_KEY_SCD
+            type: TEXT
+            tests: []
+          - name: TAGS
+            type: OBJECT
+            tests: []
+          - name: SIZE
+            type: NUMBER
+            tests: []
+          - name: CUSTOM_ATTRIBUTES
+            type: OBJECT
+            tests: []
+          - name: PLAN
+            type: OBJECT
+            tests: []
+          - name: COMPANY_ID
+            type: TEXT
+            tests: []
+          - name: _AIRBYTE_AB_ID
+            type: TEXT
+            tests: []
+          - name: _AIRBYTE_END_AT
+            type: NUMBER
+            tests: []
+          - name: _AIRBYTE_ACTIVE_ROW
+            type: NUMBER
+            tests: []
+          - name: WEBSITE
+            type: TEXT
+            tests: []
+          - name: SEGMENTS
+            type: OBJECT
+            tests: []
+          - name: _AIRBYTE_NORMALIZED_AT
+            type: TIMESTAMP
+            tests: []
+          - name: APP_ID
+            type: TEXT
+            tests: []
+          - name: USER_COUNT
+            type: NUMBER
+            tests: []
+          - name: _AIRBYTE_START_AT
+            type: NUMBER
+            tests: []

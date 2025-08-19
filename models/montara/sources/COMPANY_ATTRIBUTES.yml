@@ -1,0 +1,66 @@
+version: 2
+sources:
+  - name: COMPANY_ATTRIBUTES
+    schema: AIRBYTE_SCHEMA
+    database: airbnb
+    tables:
+      - name: COMPANY_ATTRIBUTES
+        description: ""
+        columns:
+          - name: _AIRBYTE_NORMALIZED_AT
+            type: TIMESTAMP
+            tests: []
+          - name: UPDATED_AT
+            type: NUMBER
+            tests: []
+          - name: UI_WRITABLE
+            type: BOOLEAN
+            tests: []
+          - name: CREATED_AT
+            type: NUMBER
+            tests: []
+          - name: ARCHIVED
+            type: BOOLEAN
+            tests: []
+          - name: CUSTOM
+            type: BOOLEAN
+            tests: []
+          - name: ADMIN_ID
+            type: TEXT
+            tests: []
+          - name: _AIRBYTE_COMPANY_ATTRIBUTES_HASHID
+            type: TEXT
+            tests: []
+          - name: API_WRITABLE
+            type: BOOLEAN
+            tests: []
+          - name: TYPE
+            type: TEXT
+            tests: []
+          - name: _AIRBYTE_AB_ID
+            type: TEXT
+            tests: []
+          - name: FULL_NAME
+            type: TEXT
+            tests: []
+          - name: OPTIONS
+            type: OBJECT
+            tests: []
+          - name: MODEL
+            type: TEXT
+            tests: []
+          - name: DESCRIPTION
+            type: TEXT
+            tests: []
+          - name: LABEL
+            type: TEXT
+            tests: []
+          - name: _AIRBYTE_EMITTED_AT
+            type: TIMESTAMP
+            tests: []
+          - name: NAME
+            type: TEXT
+            tests: []
+          - name: DATA_TYPE
+            type: TEXT
+            tests: []

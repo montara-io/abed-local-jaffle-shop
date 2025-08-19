@@ -1,0 +1,33 @@
+version: 2
+sources:
+  - name: COMPANIES_PLAN
+    schema: AIRBYTE_SCHEMA
+    database: airbnb
+    tables:
+      - name: COMPANIES_PLAN
+        description: ""
+        columns:
+          - name: TYPE
+            type: TEXT
+            tests: []
+          - name: _AIRBYTE_COMPANIES_HASHID
+            type: TEXT
+            tests: []
+          - name: _AIRBYTE_PLAN_HASHID
+            type: TEXT
+            tests: []
+          - name: _AIRBYTE_AB_ID
+            type: TEXT
+            tests: []
+          - name: NAME
+            type: TEXT
+            tests: []
+          - name: ID
+            type: TEXT
+            tests: []
+          - name: _AIRBYTE_NORMALIZED_AT
+            type: TIMESTAMP
+            tests: []
+          - name: _AIRBYTE_EMITTED_AT
+            type: TIMESTAMP
+            tests: []

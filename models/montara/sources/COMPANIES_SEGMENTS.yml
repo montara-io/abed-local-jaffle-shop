@@ -1,0 +1,30 @@
+version: 2
+sources:
+  - name: COMPANIES_SEGMENTS
+    schema: AIRBYTE_SCHEMA
+    database: airbnb
+    tables:
+      - name: COMPANIES_SEGMENTS
+        description: ""
+        columns:
+          - name: _AIRBYTE_COMPANIES_HASHID
+            type: TEXT
+            tests: []
+          - name: _AIRBYTE_NORMALIZED_AT
+            type: TIMESTAMP
+            tests: []
+          - name: _AIRBYTE_AB_ID
+            type: TEXT
+            tests: []
+          - name: _AIRBYTE_SEGMENTS_HASHID
+            type: TEXT
+            tests: []
+          - name: SEGMENTS
+            type: OBJECT
+            tests: []
+          - name: TYPE
+            type: TEXT
+            tests: []
+          - name: _AIRBYTE_EMITTED_AT
+            type: TIMESTAMP
+            tests: []

@@ -1,0 +1,162 @@
+version: 2
+sources:
+  - name: CONTACTS
+    schema: AIRBYTE_SCHEMA
+    database: airbnb
+    tables:
+      - name: CONTACTS
+        description: ""
+        columns:
+          - name: BROWSER
+            type: TEXT
+            tests: []
+          - name: IOS_SDK_VERSION
+            type: TEXT
+            tests: []
+          - name: IOS_APP_VERSION
+            type: TEXT
+            tests: []
+          - name: ID
+            type: TEXT
+            tests: []
+          - name: IOS_APP_NAME
+            type: TEXT
+            tests: []
+          - name: UPDATED_AT
+            type: NUMBER
+            tests: []
+          - name: IOS_LAST_SEEN_AT
+            type: NUMBER
+            tests: []
+          - name: LAST_REPLIED_AT
+            type: NUMBER
+            tests: []
+          - name: WORKSPACE_ID
+            type: TEXT
+            tests: []
+          - name: EXTERNAL_ID
+            type: TEXT
+            tests: []
+          - name: AVATAR
+            type: TEXT
+            tests: []
+          - name: _AIRBYTE_AB_ID
+            type: TEXT
+            tests: []
+          - name: PHONE
+            type: TEXT
+            tests: []
+          - name: _AIRBYTE_EMITTED_AT
+            type: TIMESTAMP
+            tests: []
+          - name: ROLE
+            type: TEXT
+            tests: []
+          - name: ANDROID_LAST_SEEN_AT
+            type: TIMESTAMP
+            tests: []
+          - name: MARKED_EMAIL_AS_SPAM
+            type: BOOLEAN
+            tests: []
+          - name: IOS_OS_VERSION
+            type: TEXT
+            tests: []
+          - name: ANDROID_DEVICE
+            type: TEXT
+            tests: []
+          - name: OPTED_OUT_SUBSCRIPTION_TYPES
+            type: OBJECT
+            tests: []
+          - name: CUSTOM_ATTRIBUTES
+            type: OBJECT
+            tests: []
+          - name: LAST_CONTACTED_AT
+            type: NUMBER
+            tests: []
+          - name: SOCIAL_PROFILES
+            type: OBJECT
+            tests: []
+          - name: ANDROID_OS_VERSION
+            type: TEXT
+            tests: []
+          - name: LANGUAGE_OVERRIDE
+            type: TEXT
+            tests: []
+          - name: ANDROID_APP_VERSION
+            type: TEXT
+            tests: []
+          - name: ANDROID_SDK_VERSION
+            type: TEXT
+            tests: []
+          - name: EMAIL
+            type: TEXT
+            tests: []
+          - name: BROWSER_VERSION
+            type: TEXT
+            tests: []
+          - name: UNSUBSCRIBED_FROM_EMAILS
+            type: BOOLEAN
+            tests: []
+          - name: LAST_SEEN_AT
+            type: NUMBER
+            tests: []
+          - name: _AIRBYTE_NORMALIZED_AT
+            type: TIMESTAMP
+            tests: []
+          - name: LAST_EMAIL_CLICKED_AT
+            type: NUMBER
+            tests: []
+          - name: HAS_HARD_BOUNCED
+            type: BOOLEAN
+            tests: []
+          - name: UNSUBSCRIBED_FROM_SMS
+            type: BOOLEAN
+            tests: []
+          - name: IOS_DEVICE
+            type: TEXT
+            tests: []
+          - name: SIGNED_UP_AT
+            type: NUMBER
+            tests: []
+          - name: CREATED_AT
+            type: NUMBER
+            tests: []
+          - name: OWNER_ID
+            type: NUMBER
+            tests: []
+          - name: OS
+            type: TEXT
+            tests: []
+          - name: _AIRBYTE_CONTACTS_HASHID
+            type: TEXT
+            tests: []
+          - name: COMPANIES
+            type: OBJECT
+            tests: []
+          - name: SMS_CONSENT
+            type: BOOLEAN
+            tests: []
+          - name: NOTES
+            type: OBJECT
+            tests: []
+          - name: LOCATION
+            type: OBJECT
+            tests: []
+          - name: BROWSER_LANGUAGE
+            type: TEXT
+            tests: []
+          - name: LAST_EMAIL_OPENED_AT
+            type: NUMBER
+            tests: []
+          - name: NAME
+            type: TEXT
+            tests: []
+          - name: TAGS
+            type: OBJECT
+            tests: []
+          - name: TYPE
+            type: TEXT
+            tests: []
+          - name: ANDROID_APP_NAME
+            type: TEXT
+            tests: []
