@@ -1,0 +1,15 @@
+version: 2
+models:
+  - name: "xes_model_res"
+    description: ""
+    config:
+      materialized: "table"
+      unique_key: []
+    tests: []
+    columns: []
+    meta:
+      model_tags: []
+      incremental_config:
+        target_column: ""
+        incremental_origins: []
+      updated: "2025-08-19T11:17:01.140Z"
