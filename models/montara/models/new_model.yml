@@ -6,214 +6,160 @@ models:
     config:
       materialized: "table"
       unique_key: []
-      enabled: true
-      database: null
-      schema: null
     tests: []
     columns:
       - name: "IOS_SDK_VERSION"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "OS"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "MARKED_EMAIL_AS_SPAM"
         type: "BOOLEAN"
-        description: ""
         tests: []
       - name: "ANDROID_LAST_SEEN_AT"
         type: "TIMESTAMP"
-        description: ""
         tests: []
       - name: "IOS_APP_VERSION"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "CUSTOM_ATTRIBUTES"
         type: "OBJECT"
-        description: ""
         tests: []
       - name: "SMS_CONSENT"
         type: "BOOLEAN"
-        description: ""
         tests: []
       - name: "ANDROID_APP_VERSION"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "ANDROID_OS_VERSION"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "UPDATED_AT"
         type: "NUMBER"
-        description: ""
         tests: []
       - name: "ROLE"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "IOS_APP_NAME"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "LAST_EMAIL_CLICKED_AT"
         type: "NUMBER"
-        description: ""
         tests: []
       - name: "_AIRBYTE_AB_ID"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "PHONE"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "ANDROID_APP_NAME"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "OPTED_OUT_SUBSCRIPTION_TYPES"
         type: "OBJECT"
-        description: ""
         tests: []
       - name: "_AIRBYTE_CONTACTS_HASHID"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "LAST_EMAIL_OPENED_AT"
         type: "NUMBER"
-        description: ""
         tests: []
       - name: "AVATAR"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "OWNER_ID"
         type: "NUMBER"
-        description: ""
         tests: []
       - name: "NOTES"
         type: "OBJECT"
-        description: ""
         tests: []
       - name: "_AIRBYTE_NORMALIZED_AT"
         type: "TIMESTAMP"
-        description: ""
         tests: []
       - name: "NAME"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "EMAIL"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "EXTERNAL_ID"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "WORKSPACE_ID"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "ANDROID_DEVICE"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "SIGNED_UP_AT"
         type: "NUMBER"
-        description: ""
         tests: []
       - name: "LOCATION"
         type: "OBJECT"
-        description: ""
         tests: []
       - name: "BROWSER_VERSION"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "TYPE"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "COMPANIES"
         type: "OBJECT"
-        description: ""
         tests: []
       - name: "SOCIAL_PROFILES"
         type: "OBJECT"
-        description: ""
         tests: []
       - name: "HAS_HARD_BOUNCED"
         type: "BOOLEAN"
-        description: ""
         tests: []
       - name: "UNSUBSCRIBED_FROM_SMS"
         type: "BOOLEAN"
-        description: ""
         tests: []
       - name: "TAGS"
         type: "OBJECT"
-        description: ""
         tests: []
       - name: "ID"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "CREATED_AT"
         type: "NUMBER"
-        description: ""
         tests: []
       - name: "_AIRBYTE_EMITTED_AT"
         type: "TIMESTAMP"
-        description: ""
         tests: []
       - name: "IOS_OS_VERSION"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "LANGUAGE_OVERRIDE"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "IOS_DEVICE"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "BROWSER_LANGUAGE"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "LAST_CONTACTED_AT"
         type: "NUMBER"
-        description: ""
         tests: []
       - name: "IOS_LAST_SEEN_AT"
         type: "NUMBER"
-        description: ""
         tests: []
       - name: "LAST_SEEN_AT"
         type: "NUMBER"
-        description: ""
         tests: []
       - name: "ANDROID_SDK_VERSION"
         type: "TEXT"
-        description: ""
         tests: []
       - name: "LAST_REPLIED_AT"
         type: "NUMBER"
-        description: ""
         tests: []
       - name: "UNSUBSCRIBED_FROM_EMAILS"
         type: "BOOLEAN"
-        description: ""
         tests: []
       - name: "BROWSER"
         type: "TEXT"
-        description: ""
         tests: []
     meta:
       model_tags:
@@ -221,4 +167,4 @@ models:
       incremental_config:
         target_column: ""
         incremental_origins: []
-      updated: "2025-08-19T12:42:58.778Z"
+      updated: "2025-08-19T13:06:58.142Z"
