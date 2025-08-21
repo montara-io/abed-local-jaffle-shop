@@ -5,9 +5,6 @@ models:
     config:
       materialized: "table"
       unique_key: []
-      enabled: true
-      database: null
-      schema: null
     tests: []
     columns:
       - name: "ID"
@@ -20,4 +17,4 @@ models:
       incremental_config:
         target_column: ""
         incremental_origins: []
-      updated: "2025-08-21T12:26:30.870Z"
+      updated: "2025-08-21T12:29:45.004Z"
