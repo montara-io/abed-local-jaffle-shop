@@ -6,35 +6,104 @@ models:
     config:
       materialized: "table"
       unique_key: []
+      enabled: true
+      database: null
+      schema: null
     tests: []
     columns:
-      - name: "id"
-        type: "NUMBER"
-        description: "Unique identifier for the listing."
-        tests:
-          - not_null_tolerance:
-              tolerance: 5
-      - name: "host_id"
-        type: "NUMBER"
-        description: "Unique identifier for the host who owns the listing."
-        tests:
-          - not_null_tolerance:
-              tolerance: 0
-          - range_tolerance:
-              min: 0
-              max: 100
-              tolerance: 0
       - name: "name"
         type: "TEXT"
         description: "Name or title of the listing."
         tests:
           - not_null_tolerance:
               tolerance: 0
-      - name: "updated_at"
-        type: "TIMESTAMP"
+      - name: "_AIRBYTE_AB_ID"
+        type: "TEXT"
+        description: ""
         tests: []
-      - name: "created_at"
+      - name: "USER_COUNT"
+        type: "NUMBER"
+        description: ""
+        tests: []
+      - name: "_AIRBYTE_COMPANIES_HASHID"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "WEBSITE"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "INDUSTRY"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "SESSION_COUNT"
+        type: "NUMBER"
+        description: ""
+        tests: []
+      - name: "TYPE"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "TAGS"
+        type: "OBJECT"
+        description: ""
+        tests: []
+      - name: "REMOTE_CREATED_AT"
+        type: "NUMBER"
+        description: ""
+        tests: []
+      - name: "CREATED_AT"
+        type: "NUMBER"
+        description: ""
+        tests: []
+      - name: "SEGMENTS"
+        type: "OBJECT"
+        description: ""
+        tests: []
+      - name: "MONTHLY_SPEND"
+        type: "NUMBER"
+        description: ""
+        tests: []
+      - name: "APP_ID"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "PLAN"
+        type: "OBJECT"
+        description: ""
+        tests: []
+      - name: "COMPANY_ID"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "_AIRBYTE_UNIQUE_KEY"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "SIZE"
+        type: "NUMBER"
+        description: ""
+        tests: []
+      - name: "_AIRBYTE_NORMALIZED_AT"
         type: "TIMESTAMP"
+        description: ""
+        tests: []
+      - name: "UPDATED_AT"
+        type: "NUMBER"
+        description: ""
+        tests: []
+      - name: "ID"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "_AIRBYTE_EMITTED_AT"
+        type: "TIMESTAMP"
+        description: ""
+        tests: []
+      - name: "CUSTOM_ATTRIBUTES"
+        type: "OBJECT"
+        description: ""
         tests: []
     meta:
       model_tags:
@@ -42,4 +111,4 @@ models:
       incremental_config:
         target_column: ""
         incremental_origins: []
-      updated: "2025-08-24T12:56:51.491Z"
+      updated: "2025-08-24T12:57:18.972Z"
