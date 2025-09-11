@@ -1,0 +1,15 @@
+version: 2
+models:
+  - name: "test__4"
+    description: ""
+    config:
+      materialized: "table"
+      unique_key: []
+    tests: []
+    columns: []
+    meta:
+      model_tags: []
+      incremental_config:
+        target_column: ""
+        incremental_origins: []
+      updated: "2025-09-11T11:09:36.634Z"
