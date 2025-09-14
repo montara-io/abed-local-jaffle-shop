@@ -5,11 +5,22 @@ models:
     config:
       materialized: "table"
       unique_key: []
+      enabled: true
+      database: null
+      schema: null
     tests: []
-    columns: []
+    columns:
+      - name: "ID"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "NAME"
+        type: "TEXT"
+        description: ""
+        tests: []
     meta:
       model_tags: []
       incremental_config:
         target_column: ""
         incremental_origins: []
-      updated: "2025-09-14T13:41:47.442Z"
+      updated: "2025-09-14T13:42:04.585Z"
