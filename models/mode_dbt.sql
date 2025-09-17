@@ -1,4 +1,4 @@
---UPDATED: 2025-09-17T08:37:50.261Z
+--UPDATED: 2025-09-17T08:39:38.076Z
 --<DBT_CODE>
-select * from new_model;
+select * from ADMINS;
 --</DBT_CODE>
