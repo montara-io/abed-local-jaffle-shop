@@ -1,4 +1,4 @@
---UPDATED: 2025-09-17T08:39:38.076Z
+--UPDATED: 2025-09-30T12:24:57.685Z
 --<DBT_CODE>
-select * from ADMINS;
+select id from ADMINS;
 --</DBT_CODE>
