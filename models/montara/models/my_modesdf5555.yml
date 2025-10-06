@@ -8,8 +8,12 @@ models:
     tests: []
     columns: []
     meta:
-      model_tags: []
+      model_tags:
+        - "1451d3e1-6f43-4c1f-a718-229a34eed25e"
+        - "25201d29-2ade-4ec0-9dff-cd3a68fdfcd3"
+        - "c10aa1bd-efd8-46c8-a96b-d9c9bdd1b568"
+        - "27a34f36-5318-4f1b-8b26-a6cb535da635"
       incremental_config:
         target_column: ""
         incremental_origins: []
-      updated: "2025-09-14T13:38:04.846Z"
+      updated: "2025-10-06T11:23:08.220Z"
