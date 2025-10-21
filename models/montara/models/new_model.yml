@@ -6,15 +6,14 @@ models:
     config:
       materialized: "table"
       unique_key: []
+      enabled: true
+      database: null
+      schema: null
     tests: []
     columns:
-      - name: "id"
-        type: "NUMBER"
-        description: "Unique identifier for each listing record."
-        tests: []
-      - name: "created_at"
-        type: "TIMESTAMP"
-        description: "Timestamp indicating when the listing was created."
+      - name: "NAME"
+        type: "TEXT"
+        description: ""
         tests: []
     meta:
       model_tags:
@@ -22,4 +21,4 @@ models:
       incremental_config:
         target_column: ""
         incremental_origins: []
-      updated: "2025-10-21T07:21:26.274Z"
+      updated: "2025-10-21T07:21:45.679Z"
