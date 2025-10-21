@@ -5,6 +5,9 @@ models:
     config:
       materialized: "table"
       unique_key: []
+      enabled: true
+      database: null
+      schema: null
     tests: []
     columns:
       - name: "ID"
@@ -13,9 +16,61 @@ models:
       - name: "NAME"
         type: "TEXT"
         tests: []
+      - name: "JOB_TITLE"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "EMAIL"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "AWAY_MODE_ENABLED"
+        type: "BOOLEAN"
+        description: ""
+        tests: []
+      - name: "_AIRBYTE_NORMALIZED_AT"
+        type: "TIMESTAMP"
+        description: ""
+        tests: []
+      - name: "_AIRBYTE_AB_ID"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "HAS_INBOX_SEAT"
+        type: "BOOLEAN"
+        description: ""
+        tests: []
+      - name: "TEAM_IDS"
+        type: "OBJECT"
+        description: ""
+        tests: []
+      - name: "AVATAR"
+        type: "OBJECT"
+        description: ""
+        tests: []
+      - name: "_AIRBYTE_EMITTED_AT"
+        type: "TIMESTAMP"
+        description: ""
+        tests: []
+      - name: "AWAY_MODE_REASSIGN"
+        type: "BOOLEAN"
+        description: ""
+        tests: []
+      - name: "ADMIN_IDS"
+        type: "OBJECT"
+        description: ""
+        tests: []
+      - name: "TYPE"
+        type: "TEXT"
+        description: ""
+        tests: []
+      - name: "_AIRBYTE_ADMINS_HASHID"
+        type: "TEXT"
+        description: ""
+        tests: []
     meta:
       model_tags: []
       incremental_config:
         target_column: ""
         incremental_origins: []
-      updated: "2025-10-21T11:44:01.409Z"
+      updated: "2025-10-21T11:44:22.283Z"
